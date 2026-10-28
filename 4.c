@@ -2,7 +2,7 @@
 
 int main(void){
     double mas[8];
-    double cumulative[8];
+    double cmas[8];
     double sum = 0;
     for(int i = 0; i <8 ; i++){
         if (i < 3){
@@ -13,14 +13,14 @@ int main(void){
             
         }
         sum += mas[i];
-        cumulative[i] = sum;
+        cmas[i] = sum;
     } 
     for (int j = 0; j < 8; j++) {
         printf("%.2f ", mas[j]);
     }
     printf("\n"); 
     for (int j = 0; j < 8; j++) {
-        printf("%.2f ", cumulative[j]);
+        printf("%.2f ", cmas[j]);
     }
     printf("\n"); 
 
